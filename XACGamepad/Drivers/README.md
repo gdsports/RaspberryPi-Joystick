@@ -16,7 +16,6 @@ cross-compiling or compiling on a Raspberry Pi.
 ```bash
 git clone --depth=1 --branch rpi-5.10.y https://github.com/raspberrypi/linux
 cd linux
-git checkout raspberrypi-kernel_1.20210201-1
 ```
 
 Make the changes to f_hid.c as described below.
